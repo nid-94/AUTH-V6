@@ -1,7 +1,7 @@
 const User = require("../model/User");
 const bcrypt = require("bcrypt");
 const jsonwebtoken = require("jsonwebtoken");
-const SECRETKEY = "123";
+
 
 exports.signup = async (req, res) => {
     try {
